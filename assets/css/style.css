@@ -334,11 +334,14 @@ p {
   text-align: center;
   margin: 0.2rem 0px;
   color: var(--primary-color);
+  font-size: 1.2rem;
+  font-weight: bold;
 }
 
 .intro__read__tag {
   text-align: center;
   margin: 0.2rem 0px;
+  font-size: 1.2rem;
 }
 
 .intro__read__title {
@@ -376,6 +379,10 @@ p {
 
 .intro__read__text__list {
   list-style: none;
+}
+
+.intro__read__text__list li {
+  color: var(--primary-color);
 }
 /* !Intro */
 
@@ -536,6 +543,11 @@ p {
   }
 }
 
+.info__read__wrapper__title {
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
 .info__read__box {
   width: 100%;
   max-width: 350px;
@@ -544,6 +556,12 @@ p {
   margin: 1rem;
   overflow: hidden;
   box-shadow: 0px 0px 22px -7px #0000003b;
+}
+
+@media only screen and (max-width: 600px) {
+  .info__read__box {
+    margin: 1rem 0px;
+  }
 }
 
 .info__read__img {
